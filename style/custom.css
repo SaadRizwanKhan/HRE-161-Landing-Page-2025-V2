@@ -352,6 +352,22 @@ footer p{margin-bottom: 0px;}
   .text-48 {
   font-size: 32px;
 }
+#g1 {
+
+  font-size: 21px;
+}
+
+#g12 {
+ padding: 8vh 10px;
+    text-align: center;
+    row-gap: 12px;
+}
+#g12 h3:nth-child(1) {
+  font-size: 56px;
+}
+#g12 h4 {
+  font-size: 20px;
+}
 #g1 button{
   font-size: 14px;
 }
@@ -360,6 +376,10 @@ footer p{margin-bottom: 0px;}
   }
   #g1 .text2 {
   font-size: 21px;
+}
+
+#g12 h5 {
+  font-size: 18px;
 }
   #projectsPage nav img {
     width: 113px;
