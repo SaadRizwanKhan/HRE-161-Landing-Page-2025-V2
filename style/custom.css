@@ -134,15 +134,19 @@ padding: 28%;
 #floatingTextarea{
     height:200px
 }
-
+#LanguageSelect{
+  display: grid;
+  grid-auto-flow: column;
+  align-items: center;
+  column-gap: 10px;
+}
 #TheForm{
   border:1px solid #a5a5a5;
-   background: #FFFFFF 0% 0% no-repeat padding-box;
-box-shadow: 0px 6px 12px #bbbbbb29;
-
-border-radius: 24px;
-opacity: 1;
-padding: 60px 40px;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  box-shadow: 0px 6px 12px #bbbbbb29;
+  border-radius: 24px;
+  opacity: 1;
+  padding: 60px 40px;
 }
 
 #mobile_number, #project_name {
@@ -150,12 +154,12 @@ padding: 60px 40px;
   padding-bottom: 20px;
 }
 #projectsPage nav{
-    position: absolute;
+ padding:20px 50px
 }
 #projectsPage nav img{
 width: 180px;
-margin-top: 40px;
-margin-left: 50px;
+/* margin-top: 40px;
+margin-left: 50px; */
 }
 
 #g1{
