@@ -1,0 +1,331 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+    font-family: 'Poppins';
+    overflow-x: hidden;
+}
+
+.poppins-thin {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.poppins-extralight {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.poppins-light {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.poppins-extrabold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.poppins-black {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.poppins-thin-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.poppins-extralight-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.poppins-light-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.poppins-regular-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.poppins-medium-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.poppins-semibold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.poppins-bold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.poppins-extrabold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.poppins-black-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+.btn-danger{
+background-color: #DE1E26;
+}
+
+.iti {
+  width: 100%;
+}
+
+.iti__country-list{z-index: 1000;}
+
+#TheFormWrapper{
+min-height: 100vh;
+padding: 28%;
+}
+
+#TheFormWrapper .form-floating{
+    margin-bottom:25px
+}
+
+#floatingTextarea{
+    height:200px
+}
+
+#TheForm{
+  border:1px solid #a5a5a5;
+   background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: 0px 6px 12px #bbbbbb29;
+
+border-radius: 24px;
+opacity: 1;
+padding: 60px 40px;
+}
+
+#mobile_number, #project_name {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+#projectsPage nav{
+    position: absolute;
+}
+#projectsPage nav img{
+width: 180px;
+margin-top: 40px;
+margin-left: 50px;
+}
+
+#g1{
+background-image: url("../images/hero11.png");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  background-repeat: no-repeat;
+}
+
+#g2{
+display: grid;
+  justify-content: center;
+  align-items: end;
+  background-color: black;
+}
+
+.srix-h1-white, .srix-h1-black{
+text-align: center;
+font: normal normal bold 91px/137px Poppins;
+letter-spacing: 0px;
+color: #FFFFFF;
+font-size: 86px;
+line-height: 95px;
+}
+.srix-h1-black{color: black;}
+
+.srix-h2-white{
+    text-align: center;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    font-size: 37px;
+}
+
+.srix-h2-white b{color: red;}
+
+#g3{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+#g4{
+    background-color: black;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#g4 .slide{
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+  align-content: end;
+  align-items: end;
+  width: 34vw;
+  height: 84vh;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  padding:40px;
+  position: relative;
+
+}
+
+#g4 .slide::before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0)); /* black overlay with 50% opacity */
+/* Keep it behind the content */
+}
+
+#g4 .slide h5{
+    font-size: 2rem;
+    justify-self: start;
+    z-index:100;
+}
+#g4 .slide p{
+    display: grid;
+    grid-template-columns: 30px 1fr;
+    justify-self: start;
+    font-weight: bold;
+    z-index:100;
+}
+
+#g4 .slide .download_brochure_btn_srix{
+    z-index: 100;
+}
+
+#g4 .slide{
+background-image: url('../images/171GardenHeightsExterior.png');
+margin-right:30px;
+}
+
+#g4 .slide.s2{
+background-image: url('../images/AA_Tower.png');
+}
+
+#g4 .slide.s3{
+background-image: url('../images/sunrise_park.png');
+}
+#g4 .slide.s4{
+background-image: url('../images/171GardenHeightsExterior.png');
+}
+
+#g4 .slide.s5{
+background-image: url('../images/AA_Tower.png');
+}
+#g4 .slide.s5{
+background-image: url('../images/sunrise_park.png');
+}
+
+#g5{
+    margin-top:50px;
+}
+
+footer{
+    background-color: black;
+  display: grid;
+  grid-auto-flow: column;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  column-gap:20px
+}
+
+footer a{
+    text-decoration: none !important;
+    color:white !important;
+    border-right:1px solid white;
+    padding-left: 30px;
+    padding-right: 60px;
+}
+
+footer p{margin-bottom: 0px;}
+
+@media(max-width:786px){
+  
+  #projectsPage nav img {
+    width: 113px;
+    margin-top: 9px;
+    margin-left: 11px;
+    }
+
+    .navbar-toggler {
+        display: none;
+    }
+
+.srix-h1-white, .srix-h1-black{
+ font-size: 2.4rem;
+  line-height: 2.6rem;
+}
+.srix-h2-white {
+  margin-top:20px;
+  font-size: 23px;
+}
+#g4 .slide{
+  height: 54vh;
+}
+footer{
+  grid-auto-flow: row;
+  justify-content: center;
+  justify-items: center;
+  row-gap: 20px;
+}
+footer a{
+  border:none
+}
+}
