@@ -346,7 +346,21 @@ footer a{
 footer p{margin-bottom: 0px;}
 
 @media(max-width:786px){
-  
+  #projectsPage nav{
+    padding:0px;
+  }
+  .text-48 {
+  font-size: 32px;
+}
+#g1 button{
+  font-size: 14px;
+}
+  #g1 h1{
+    font-size: 32px;
+  }
+  #g1 .text2 {
+  font-size: 21px;
+}
   #projectsPage nav img {
     width: 113px;
     margin-top: 9px;
