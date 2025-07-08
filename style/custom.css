@@ -168,7 +168,52 @@ background-image: url("../images/hero11.png");
   background-position: center;
   height: 100vh;
   background-repeat: no-repeat;
+  background-color: black;
+  display: grid;
+  align-content: center;
+  justify-content: start;
+  justify-items: start;
+  padding-left: 4vw;
+  color: white;
+  font-size: 30px;
+  row-gap: 20px;
 }
+#g12{
+ display: grid;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  padding: 12vh 7vh;
+  justify-items: center;
+}
+#g12 h3:nth-child(1){font-size:98px ; font-weight: bold;}
+#g12 h3{font-size:61px ; font-weight:400;}
+
+#g1 h1{
+font-size: 48px;
+color: white;
+font-weight: bold;
+}
+
+
+#g1 h1 p{font-weight:400;}
+#g1 .text2{font-size:27px;}
+#g1 b{
+  color:#DE1E26;
+}
+.text-48{
+font-size: 48px;
+}
+
+
+#g1 small{ font-size: 14px;}
+#g1 button{
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  border-radius: 12px;
+  padding:20px;
+  font-size: 19px;
+}
+
 
 #g2{
 display: grid;
