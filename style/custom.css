@@ -2,6 +2,7 @@
 body{
     font-family: 'Poppins';
     overflow-x: hidden;
+    top:0 !important
 }
 
 .poppins-thin {
@@ -154,14 +155,24 @@ padding: 28%;
   padding-bottom: 20px;
 }
 #projectsPage nav{
- padding:20px 50px
+ padding:20px 50px;
+ padding-right: 177px;
 }
 #projectsPage nav img{
 width: 180px;
 /* margin-top: 40px;
 margin-left: 50px; */
 }
+#\:2\.container {
+  display: none !important;
+}
 
+#google_translate_element {
+  position: absolute;
+  z-index: 100;
+  top: 35px;
+  right:17px;
+}
 #g1{
 background-image: url("../images/hero11.png");
   background-size: cover;
