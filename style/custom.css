@@ -250,7 +250,12 @@ line-height: 95px;
     padding-top: 50px;
     padding-bottom: 50px;
 }
-
+.form-labe.text-white {
+  font-size: 13px;
+}
+LanguageSelect select {
+  font-size: 13px;
+}
 #g4 .slide{
   display: grid;
   justify-content: center;
