@@ -176,7 +176,7 @@ margin-left: 50px; */
 #g1{
 background-image: url("../images/herobanner.jpg");
   background-size: cover;
-  background-position: center;
+  background-position: right;
   height: 100vh;
   background-repeat: no-repeat;
   background-color: black;
@@ -426,5 +426,8 @@ footer{
 }
 footer a{
   border:none
+}
+#google_translate_element{
+  top:17px;
 }
 }
