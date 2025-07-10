@@ -360,10 +360,14 @@ footer a{
 }
 
 footer p{margin-bottom: 0px;}
-
+.goog-te-gadget-simple{
+  border-radius: 12px;
+  padding: 3px;
+}
 @media(max-width:786px){
   #projectsPage nav{
     padding:0px;
+    padding-bottom: 14px;
   }
   .text-48 {
   font-size: 32px;
